@@ -1,5 +1,5 @@
 .sidebar {
-    width: 20%;
+    width: 23%;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -63,3 +63,8 @@
  border-radius: 25%;
   }
   
+  a{
+    color: white;
+    font-style: none;
+    text-decoration: none;
+  }

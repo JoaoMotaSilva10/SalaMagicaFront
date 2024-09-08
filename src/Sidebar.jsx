@@ -19,23 +19,23 @@ function Sidebar() {
       </div>
       
       <ul>
-      <Link to="/Login">  <li>
-      <img src={homeIcon}/> <i className="icon-home"></i> Início 
-        </li></Link>
         <li>
-        <img src={supportIcon}></img> <i className="icon-reservas"></i> Análise de Reservas
+      <img src={homeIcon}/> <i className="icon-home"></i><a href="/Login" className="Inicio"> Início </a>
         </li>
         <li>
-        <img src={equipmentIcon}></img> <i className="icon-salas"></i> Cadastro de Sala
+        <img src={supportIcon}></img> <i className="icon-reservas"></i><a href="/Login" className="Inicio"> Análise de Reservas </a>
         </li>
         <li>
-        <img src={analysisIcon}></img>  <i className="icon-recursos"></i> Status de Recursos
+        <img src={equipmentIcon}></img> <i className="icon-salas"></i><a href="/Login" className="Inicio"> Cadastro de Sala </a>
         </li>
         <li>
-        <img src={adminIcon}></img>  <i className="icon-admin"></i> Cadastro de Equipamento
+        <img src={analysisIcon}></img>  <i className="icon-recursos"></i> <a href="/Login" className="Inicio">Status de Recursos </a>
         </li>
         <li>
-        <img src={roomIcon}></img>  <i className="icon-suporte"></i> Suporte
+        <img src={adminIcon}></img>  <i className="icon-admin"></i> <a href="/Login" className="Inicio">Cadastro de Equipamento </a>
+        </li>
+        <li>
+        <img src={roomIcon}></img>  <i className="icon-suporte"></i> <a href="/Login" className="Inicio"> Suporte </a>
         </li>
       </ul>
     </div>
