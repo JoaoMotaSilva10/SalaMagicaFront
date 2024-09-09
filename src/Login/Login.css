@@ -24,7 +24,7 @@
   }
   
   .login-image {
-    width: 75vw; /* Ocupa 50% da largura da tela */
+    width: 100vw; /* Ocupa 50% da largura da tela */
     height: 100vh; /* Ocupa 100% da altura da tela */
     background: url('../assets/image (2).svg') no-repeat center center;
     background-size: cover; /* Faz com que a imagem cubra toda a área */
