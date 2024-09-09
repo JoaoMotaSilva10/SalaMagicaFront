@@ -1,7 +1,7 @@
 import React from 'react';
 import './Sidebar.css';
 import { Link } from 'react-router-dom';
-import Logo from './assets/Logo.png';
+import Logo from './assets/Logobranca.svg';
 import supportIcon from './assets/frame1.svg'; 
 import analysisIcon from './assets/frame2.svg';
 import roomIcon from './assets/frame3.svg';
@@ -19,25 +19,31 @@ function Sidebar() {
       </div>
       
       <ul>
-        <li>
-      <img src={homeIcon}/> <i className="icon-home"></i><a href="/Login" className="Inicio"> Início </a>
-        </li>
-        <li>
-        <img src={supportIcon}></img> <i className="icon-reservas"></i><a href="/Login" className="Inicio"> Análise de Reservas </a>
-        </li>
-        <li>
-        <img src={equipmentIcon}></img> <i className="icon-salas"></i><a href="/Login" className="Inicio"> Cadastro de Sala </a>
-        </li>
-        <li>
-        <img src={analysisIcon}></img>  <i className="icon-recursos"></i> <a href="/Login" className="Inicio">Status de Recursos </a>
-        </li>
-        <li>
-        <img src={adminIcon}></img>  <i className="icon-admin"></i> <a href="/Login" className="Inicio">Cadastro de Equipamento </a>
-        </li>
-        <li>
-        <img src={roomIcon}></img>  <i className="icon-suporte"></i> <a href="/Login" className="Inicio"> Suporte </a>
-        </li>
+      <Link to={'/'} className="custom-button"> <li>
+      <img src={homeIcon} /> <i className="icon-home"></i> Início 
+        </li></Link>
+        <Link to={'/Login'} className="custom-button"> <li>
+         <img src={supportIcon}></img> <i className="icon-reservas"></i> Análise de Reservas 
+        </li></Link>
+        <Link to={'/Login'} className="custom-button">   <li>
+        <img src={equipmentIcon}></img> <i className="icon-salas"></i>Cadastro de Sala 
+        </li></Link>
+        <Link to={'/Login'} className="custom-button">  <li>
+        <img src={analysisIcon}></img>  <i className="icon-recursos"></i>Status de Recursos 
+        </li></Link>
+        <Link to={'/Login'} className="custom-button"> <li>
+        <img src={adminIcon}></img>  <i className="icon-admin"></i> Cadastro de Equipamento 
+        </li></Link>
+        <Link to={'/Login'} className="custom-button"><li>
+        <img src={roomIcon}></img>  <i className="icon-suporte"></i> Suporte 
+        </li></Link>
+        <Link to={'/Login'} className="custom-button"><li>
+        <img src={roomIcon}></img>  <i className="icon-suporte"></i> Cadastro de gerenciadores
+        </li></Link>
       </ul>
+<button class="button">      <Link to={'/Login'} className="custom-link">
+  Sair da conta</Link>
+</button>
     </div>
   );
 }

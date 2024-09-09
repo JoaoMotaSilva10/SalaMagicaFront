@@ -5,11 +5,11 @@
 .main-content {
     flex: 1;
     padding: 20px;
-    background-color: black;
   }
   
   .welcome-text {
     margin-bottom: 20px;
+
   }
   
   .welcome-text h1 {
@@ -17,6 +17,7 @@
     font-weight: 300;
     margin-top: 5%;
     margin-left: 3%;
+    
   }
   .gerente{
     font-weight: 600;
@@ -29,11 +30,13 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
+    height: 60%;
+
   }
   
   .image-gallery img {
     flex: 1;
-    width: 35%;
+    width: 40%;
     border-radius: 30px;
     margin-left: 2%;
     overflow: hidden;
@@ -45,8 +48,6 @@
     transform: translateY(-20px);
 
 }
-
-
 
 
 /* Tema claro */

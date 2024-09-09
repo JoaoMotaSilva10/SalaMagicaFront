@@ -1,12 +1,13 @@
 .sidebar {
     width: 23%;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     background-color: black;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius: 5%;
+
+    border-right: 3px solid #2f3336;
   }
   
   .logo {
@@ -14,12 +15,13 @@
     align-items: center;
     justify-content: center;
     background-color: black;
-    margin-left: 35px;
+    margin-left: 6%;
+    margin-top: 5px;
   }
   h2{
     background-color: black;
     font-size: 30px;
-    margin-left: 25px;
+    margin-left: 40px;
   }
   .logo img {
     width: 60px;
@@ -30,9 +32,10 @@
     list-style: none;
     padding: 0;
     margin-bottom: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
     overflow-y: auto;
     background-color: black;
+    margin-top: 1px;
   }
 
   
@@ -41,22 +44,21 @@
     display: flex;
     align-items: center;
     font-size: 27px;
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: black;
   }
   .sidebar ul li:hover {
-    padding: 15px 0;
     display: flex;
     align-items: center;
     font-size: 27px;
-    margin-top: 40px;
-    transition: all ease 0.5s;
+    transform: translateY(-10px);
+    transition: all ease 0.2s;
     cursor: pointer;
   }
 
 
   .sidebar ul li i {
-    margin-right: 20px;
+    margin-right: 8%;
   }
   img{
  width: 60px;
@@ -67,4 +69,43 @@
     color: white;
     font-style: none;
     text-decoration: none;
+  }
+
+
+  .button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    justify-content: center;
+    margin-left: 30%;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+  }
+  
+  .button-span {
+    color: black;
+    background-color: white;
+  }
+  
+  .custom-link {
+    color: black; /* ou qualquer cor que preferir */
+    text-decoration: none; /* para remover o sublinhado, se desejar */
+  }
+
+  .custom-button {
+    color: white; /* ou qualquer cor que preferir */
+    text-decoration: none; /* para remover o sublinhado, se desejar */
+  }
+  .custom-link {
+    color: black; /* ou qualquer cor que preferir */
+    text-decoration: none; /* para remover o sublinhado, se desejar */
+    background-color: white;
   }
