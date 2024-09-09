@@ -1,8 +1,8 @@
 import React from 'react';
 import './MainContent.css';
-import im1 from './assets/statusrec.png';
-import im2 from './assets/cadastrosala.png';
-import im3 from './assets/analise.png';
+import im1 from '../assets/statusrec.png';
+import im2 from '../assets/cadastrosala.png';
+import im3 from '../assets/analise.png';
 import { Link } from 'react-router-dom';
 
 function MainContent() {

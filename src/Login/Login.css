@@ -26,7 +26,7 @@
   .login-image {
     width: 75vw; /* Ocupa 50% da largura da tela */
     height: 100vh; /* Ocupa 100% da altura da tela */
-    background: url('./assets/image (2).svg') no-repeat center center;
+    background: url('../assets/image (2).svg') no-repeat center center;
     background-size: cover; /* Faz com que a imagem cubra toda a área */
   }
 
@@ -34,26 +34,28 @@
     width: 30vw; /* Ocupa 50% da largura da tela */
     height: 100vh; /* Ocupa 100% da altura da tela */
     background-color: black;
-    padding: 40px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
   .login-header h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 10px;
     margin-bottom: 5%;
     margin-left: 30%;
+    margin-top: 40%;
   }
   .login-header p {
     font-size: 23px;
-    margin-bottom: 30px;
     color: white;
+    margin-top: 10%;
     margin-bottom: 5%;
+    margin-left: 18%;
   }
   
   .input-group {
-    margin-bottom: 10%;
+    margin-bottom: 8%;
+    margin-top:5%;
   }
   
   .input-group label {
@@ -140,6 +142,7 @@
     --color-green: #007AFF;
     cursor:pointer;
     margin-right: 10%;
+    margin-left: 7%;
    }
    
    .slider {

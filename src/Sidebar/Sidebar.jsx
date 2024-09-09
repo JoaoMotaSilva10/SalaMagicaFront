@@ -1,14 +1,14 @@
 import React from 'react';
 import './Sidebar.css';
 import { Link } from 'react-router-dom';
-import Logo from './assets/Logobranca.svg';
-import supportIcon from './assets/frame1.svg'; 
-import analysisIcon from './assets/frame2.svg';
-import roomIcon from './assets/frame3.svg';
-import equipmentIcon from './assets/frame4.svg';
-import statusIcon from './assets/frame5.svg';
-import adminIcon from './assets/frame6.svg';
-import homeIcon from './assets/frame7.svg';
+import Logo from '../assets/Logobranca.svg';
+import supportIcon from '../assets/frame1.svg'; 
+import analysisIcon from '../assets/frame2.svg';
+import roomIcon from '../assets/frame3.svg';
+import equipmentIcon from '../assets/frame4.svg';
+import statusIcon from '../assets/frame5.svg';
+import adminIcon from '../assets/frame6.svg';
+import homeIcon from '../assets/frame7.svg';
 
 function Sidebar() {
   return (
@@ -25,7 +25,7 @@ function Sidebar() {
         <Link to={'/Login'} className="custom-button"> <li>
          <img src={supportIcon}></img> <i className="icon-reservas"></i> Análise de Reservas 
         </li></Link>
-        <Link to={'/Login'} className="custom-button">   <li>
+        <Link to={'/CadastroSala'} className="custom-button">   <li>
         <img src={equipmentIcon}></img> <i className="icon-salas"></i>Cadastro de Sala 
         </li></Link>
         <Link to={'/Login'} className="custom-button">  <li>

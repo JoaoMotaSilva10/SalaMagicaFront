@@ -1,0 +1,17 @@
+.main-content {
+    width: 80vw;
+    padding: 20px;
+  }
+  .cadastrar{ font-weight: 600;
+    font-size: 4.2rem;
+    margin-top: 5%;  
+margin-left: 3%;}
+  .gerente{
+    font-weight: 600;
+    font-size: 4.2rem;
+  }
+  .tipo{
+    font-size: 40px;
+    margin-left: 20%;
+    font-weight: 400
+  }
