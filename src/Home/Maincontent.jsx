@@ -8,8 +8,10 @@ import { Link } from 'react-router-dom';
 function MainContent() {
   return ( 
     <div className="main-content">
-    
-      <div className="welcome-text">
+       <button class="button">      <Link to={'/Login'} className="custom-link">
+  Sair da conta</Link>
+</button>
+      <div className="welcome-text">  
         <h1>Bem-vindo(a) de volta, </h1>
         </div>
           <h1 className="gerente">  Gerente!</h1>

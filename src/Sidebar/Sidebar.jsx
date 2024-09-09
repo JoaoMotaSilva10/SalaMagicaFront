@@ -17,7 +17,6 @@ function Sidebar() {
       <img src={Logo}/>
         <h2>Sala Mágica</h2>
       </div>
-      
       <ul>
       <Link to={'/'} className="custom-button"> <li>
       <img src={homeIcon} /> <i className="icon-home"></i> Início 
@@ -41,9 +40,6 @@ function Sidebar() {
         <img src={roomIcon}></img>  <i className="icon-suporte"></i> Cadastro de gerenciadores
         </li></Link>
       </ul>
-<button class="button">      <Link to={'/Login'} className="custom-link">
-  Sair da conta</Link>
-</button>
     </div>
   );
 }

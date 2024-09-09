@@ -34,16 +34,20 @@
     width: 30vw; /* Ocupa 50% da largura da tela */
     height: 100vh; /* Ocupa 100% da altura da tela */
     background-color: black;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
+  }
+
+  .Logo{
+    margin-left: 40%;
+    width: 20%;
+    margin-top: 23%;
   }
   .login-header h1 {
     font-size: 30px;
     margin-bottom: 10px;
-    margin-bottom: 5%;
     margin-left: 30%;
-    margin-top: 40%;
   }
   .login-header p {
     font-size: 23px;
