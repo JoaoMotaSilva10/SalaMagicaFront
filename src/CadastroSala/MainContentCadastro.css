@@ -39,7 +39,6 @@ font-size: 18px;}
 .galeriabuttons{
   width: 90%;
   display: flex;
-  justify-content: space-between;
   margin-top: 3%;
   height: 10%;
   margin-left: 4%;
@@ -48,6 +47,7 @@ font-size: 18px;}
 
 .horarios{
 color:white;
+margin-left: 1%;
 background-color: black;
 border: 1px solid white;
 width: 15%;

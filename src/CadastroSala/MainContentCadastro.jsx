@@ -5,6 +5,12 @@ function MainContentCadastro() {
   // Estado para armazenar quais botões estão ativos
   const [activeButtons, setActiveButtons] = useState(new Set());
 
+  // Lista de horários diferentes para os botões
+  const buttonTimes = [
+    '08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00',
+    '15:00', '16:00', '17:00', '18:00', '19:00', '20:00', '21:00'
+  ];
+
   // Função para lidar com o clique do botão
   const handleButtonClick = (index) => {
     setActiveButtons((prevActiveButtons) => {
@@ -42,33 +48,32 @@ function MainContentCadastro() {
           <option value="3">Sala 3</option>
           <option value="4">Sala 4</option>
         </select>
-        </form>
-        <div className="cadastro">
-          <h2 className="tipo">Qual será o horário específico?</h2>
-        </div>
-        <div className="galeriabuttons">
-          {[...Array(5)].map((_, index) => (
-            <button
-              key={index}
-              className={`horarios ${activeButtons.has(index) ? 'active' : ''}`}
-              onClick={() => handleButtonClick(index)}
-            >
-              13:00
-            </button>
-          ))}
-        </div>
-        <div className="galeriabuttons2">
-          {[...Array(5)].map((_, index) => (
-            <button
-              key={index + 5}
-              className={`horarios ${activeButtons.has(index + 5) ? 'active' : ''}`}
-              onClick={() => handleButtonClick(index + 5)}
-            >
-              13:00
-            </button>
-          ))}
-        </div>
-
+      </form>
+      <div className="cadastro">
+        <h2 className="tipo">Qual será o horário específico?</h2>
+      </div>
+      <div className="galeriabuttons">
+        {[...Array(7)].map((_, index) => (
+          <button
+            key={index}
+            className={`horarios ${activeButtons.has(index) ? 'active' : ''}`}
+            onClick={() => handleButtonClick(index)}
+          >
+            {buttonTimes[index]}
+          </button>
+        ))}
+      </div>
+      <div className="galeriabuttons2">
+        {[...Array(7)].map((_, index) => (
+          <button
+            key={index + 7}
+            className={`horarios ${activeButtons.has(index + 7) ? 'active' : ''}`}
+            onClick={() => handleButtonClick(index + 7)}
+          >
+            {buttonTimes[index + 7]}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }
