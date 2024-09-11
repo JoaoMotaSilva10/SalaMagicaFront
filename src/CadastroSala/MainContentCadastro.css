@@ -4,13 +4,26 @@
     padding: 20px;
     overflow-x: auto;
   }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header-text {
+    display: flex;
+    flex-direction: column;
+  }
   .cadastrar{ font-weight: 600;
+    width: 100%;
     font-size: 4rem;
-    margin-top: 5%;  
-margin-left: 3%;}
+    margin-top: 6%;  
+margin-left: 7%;}
   .gerente{
     font-weight: 600;
-    font-size: 4.2rem;
+    font-size: 4rem;
+    margin-left: 7%;
   }
   .tipo{
     font-size: 35px;
@@ -29,11 +42,10 @@ margin-left: 3%;}
      font-size: 180%;
   }
 
-  .teste{position:absolute;
-  margin-left: 50%;
-margin-top: 1%;
+  .teste{
+background-color: white;
 color:black;
-width: 10%;
+width: 15%;
 font-size: 18px;}
 
 .galeriabuttons{

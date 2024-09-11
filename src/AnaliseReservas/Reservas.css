@@ -1,0 +1,92 @@
+.reservations-container {
+    text-align: center;
+    padding: 20px;
+    width: 147vh;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-left: 6%;
+    margin-bottom: 20px;
+    margin-top: 1%;
+  }
+  
+  .tabs button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .tabs button.active {
+    background-color: white;
+    color: black;
+  }
+  
+  .table-container{
+    max-height: 53%; 
+    overflow-y: auto; 
+    overflow-x: auto; 
+    margin-top: 20px;
+  }
+
+  /* Estilos para células e cabeçalhos */
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* Mantém o cabeçalho (primeira linha) fixo durante a rolagem */
+  thead th {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Fundo branco para o cabeçalho */
+    z-index: 1; /* Garante que o cabeçalho fique sobre as células quando rolar */
+  }
+
+  table { margin-left: 6%;
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto; 
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 2px solid #ddd;
+    text-align: left;
+    background-color: white;
+    color: black;
+  }
+  
+  .pagination {
+    margin-top: 23px;
+  }
+  
+  .pagination button {
+    padding: 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  .pagination button.active {
+    background-color: white;
+    color: black;
+  }
+  
+  .Reservas{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-right: 62%;
+  }
+  .analisar{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-right:11%;
+  }

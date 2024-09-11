@@ -21,7 +21,7 @@ function Sidebar() {
       <Link to={'/'} className="custom-button"> <li>
       <img src={homeIcon} /> <i className="icon-home"></i> Início 
         </li></Link>
-        <Link to={'/Login'} className="custom-button"> <li>
+        <Link to={'/Reservas'} className="custom-button"> <li>
          <img src={supportIcon}></img> <i className="icon-reservas"></i> Análise de Reservas 
         </li></Link>
         <Link to={'/CadastroSala'} className="custom-button">   <li>
