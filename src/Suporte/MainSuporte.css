@@ -7,6 +7,7 @@
   .table-wrapper {
     max-height: 60%; /* Defina a altura máxima conforme necessário */
     overflow-y: auto; /* Adiciona uma barra de rolagem vertical */
+    margin-left: 2%;
   }
   
 .hora{
@@ -33,13 +34,17 @@
   .support-table td {
     border: 1px solid black;
     padding: 8px;
-    color: black
+    color: black;
+    justify-content: center;
+    text-align:center;
   }
   
   .support-table th {
-    background-color: 	#A020F0;
+    background-color: #00B9AE;
     text-align: left;
-    color: white
+    color: white;
+    justify-content: center;
+    text-align:center;
   }
   
   .reclamacao-details {
