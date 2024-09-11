@@ -3,21 +3,21 @@ import './Reservas.css';
 
 // Dados de exemplo com IDs únicos
 const roomsData = [
-  { id: 1, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "07:45" },
-  { id: 2, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "08:30" },
-  { id: 3, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "09:00" },
-  { id: 4, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "09:30" },
-  { id: 5, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:00" },
-  { id: 6, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
-  { id: 7, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
-  { id: 6, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
-  { id: 7, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
-  { id: 6, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
-  { id: 7, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
-  { id: 6, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
-  { id: 7, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
-  { id: 6, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
-  { id: 7, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
+  { id: 1, reserva: "Sala de Informática", Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "07:45" },
+  { id: 2, reserva: "Sala de Informática", Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "08:30" },
+  { id: 3, reserva: "Sala de Informática", Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "09:00" },
+  { id: 4, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "09:30" },
+  { id: 5, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:00" },
+  { id: 6, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
+  { id: 7, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
+  { id: 6, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
+  { id: 7, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
+  { id: 6, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
+  { id: 7, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
+  { id: 6, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
+  { id: 7, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
+  { id: 6, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
+  { id: 7, reserva: "Sala de Informática",Sala: 4, usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
 ];
 
 const equipmentData = [
@@ -43,6 +43,7 @@ function Reservas() {
         <thead>
           <tr>
             <th>Reserva</th>
+            <th>Sala</th>
             <th>Usuário</th>
             <th>Q. Pessoas</th>
             <th>Horário</th>
@@ -52,6 +53,7 @@ function Reservas() {
           {data.map((item) => (
             <tr key={item.id}>
               <td data-label="Reserva">{item.reserva}</td>
+              <td data-label="Sala">{item.Sala}</td>
               <td data-label="Usuário">{item.usuario}</td>
               <td data-label="Q. Pessoas">{item.pessoas}</td>
               <td data-label="Horário">{item.horario}</td>
