@@ -10,11 +10,18 @@
   }
   
 .hora{
-    margin-left: 10%;
-    margin-top: 10%;
-    font-family: "Poppins";
-    font-weight: 700;
-    font-size: 350%;
+  font-size: 4rem;
+  margin-top: 7%;
+  font-weight: 600;
+  margin-left: 23%;
+  width: 100%;
+}
+.rec{
+  font-size: 4rem;
+  font-weight: 600;
+  margin-left: 33%;
+  width: 100%;
+  margin-bottom: 2%;
 }
   .support-table {
     width: 90%;
@@ -24,13 +31,15 @@
   
   .support-table th,
   .support-table td {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 8px;
+    color: black
   }
   
   .support-table th {
-    background-color: #f4f4f4;
+    background-color: 	#A020F0;
     text-align: left;
+    color: white
   }
   
   .reclamacao-details {

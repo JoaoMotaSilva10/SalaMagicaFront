@@ -52,12 +52,23 @@ th, td {
     overflow-x: auto; 
   }
   
-  table th, table td {
+  table th {
     padding: 10px;
-    border: 2px solid #ddd;
+    border: 2px solid black;
+    text-align: left;
+    background-color: #A020F0;
+    color: white;
+    justify-content: center;
+    text-align:center;
+  }
+  table td {
+    padding: 10px;
+    border: 1px solid black;
     text-align: left;
     background-color: white;
     color: black;
+    justify-content: center;
+    text-align:center;
   }
   
   .pagination {
@@ -112,20 +123,22 @@ margin-left: 5%;}
   }
   
   .search-input1 {
-    width: 18%;
+    width: 30%;
     padding: 8px;
     border-radius: 4px;
     border: 1px solid #ddd;
     font-size: 1rem;
     background-color: white;
+    margin-right: 1%;
   }
   .search-input2 {
-    width: 11%;
+    width: 8%;
     padding: 8px;
     border-radius: 4px;
     border: 1px solid #ddd;
     font-size: 1rem;
     background-color: white;
+    margin-right: 1%;
   }
   .search-input3 {
     width: 17%;
@@ -134,6 +147,7 @@ margin-left: 5%;}
     border: 1px solid #ddd;
     font-size: 1rem;
     background-color: white;
+    margin-right: 1%;
   }
   .search-input4 {
     width: 22%;
@@ -142,6 +156,7 @@ margin-left: 5%;}
     border: 1px solid #ddd;
     font-size: 1rem;
     background-color: white;
+    margin-right: 1%;
   }
   .search-input5 {
     width: 12%;
@@ -150,6 +165,7 @@ margin-left: 5%;}
     border: 1px solid #ddd;
     font-size: 1rem;
     background-color: white;
+    margin-right: 1%;
   }
   .search-input6 {
     width: 17%;
@@ -157,7 +173,7 @@ margin-left: 5%;}
     border-radius: 4px;
     border: 1px solid #ddd;
     font-size: 1rem;
-    background-color: white;
+    background-color: white;margin-right: 1%;
   }
   
   .search-input::placeholder {
