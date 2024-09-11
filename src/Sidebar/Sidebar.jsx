@@ -25,7 +25,7 @@ function Sidebar() {
          <img src={supportIcon}></img> <i className="icon-reservas"></i> Análise de Reservas 
         </li></Link>
         <Link to={'/CadastroSala'} className="custom-button">   <li>
-        <img src={equipmentIcon}></img> <i className="icon-salas"></i>Cadastro de Sala 
+        <img src={equipmentIcon}></img> <i className="icon-salas"></i>Atualização de Sala 
         </li></Link>
         <Link to={'/Login'} className="custom-button">  <li>
         <img src={analysisIcon}></img>  <i className="icon-recursos"></i>Status de Recursos 

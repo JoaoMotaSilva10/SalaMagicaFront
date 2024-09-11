@@ -26,13 +26,13 @@ function MainContentCadastro() {
       <form>
         <div className="header">
           <div className="header-text">
-            <h1 className="cadastrar">Hora de cadastrar</h1>
+            <h1 className="cadastrar">Hora de atualizar</h1>
             <h1 className="gerente">a sala!</h1>
           </div>
           <button className="teste">Avançar</button>
         </div>
         <div className="cadastro">
-          <h2 className="tipo">Qual tipo de sala você gostaria de cadastrar?</h2>
+          <h2 className="tipo">Qual tipo de sala você gostaria de atualizar?</h2>
           <select className="inpcad">
             <option value="1">Sala de informática</option>
             <option value="2">Sala de informática para internet</option>
