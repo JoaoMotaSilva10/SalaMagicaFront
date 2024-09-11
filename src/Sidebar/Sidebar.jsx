@@ -33,8 +33,8 @@ function Sidebar() {
         <Link to={'/Login'} className="custom-button"> <li>
         <img src={adminIcon}></img>  <i className="icon-admin"></i> Cadastro de Equipamento 
         </li></Link>
-        <Link to={'/Login'} className="custom-button"><li>
-        <img src={roomIcon}></img>  <i className="icon-suporte"></i> Suporte 
+        <Link to={'/Suporte'} className="custom-button"><li>
+        <img src={roomIcon}></img>  <i className="icon-suporte"></i> Resposta de Suporte 
         </li></Link>
         <Link to={'/Login'} className="custom-button"><li>
         <img src={roomIcon}></img>  <i className="icon-suporte"></i> Cadastro de gerenciadores

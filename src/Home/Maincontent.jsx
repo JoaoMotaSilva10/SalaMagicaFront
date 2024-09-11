@@ -16,9 +16,9 @@ function MainContent() {
       </div>
       <h1 className="tente">Gerente!</h1>
       <div className="image-gallery">
-      <img src={im2} classname="img1"/>
-      <img src={im1}/>
-      <img src={im3}/>
+      <Link to={'/CadastroSala'} className="pfv"><img src={im2} /> </Link>
+      <Link to={'/CadastroSala'} className="pfv"><img src={im1} /> </Link>
+      <Link to={'/Reservas'} className="pfv"><img src={im3} /> </Link>
       </div>
     </div>
   );
