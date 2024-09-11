@@ -82,11 +82,13 @@ th, td {
   .Reservas{
     font-size: 4rem;
     font-weight: 600;
-    margin-right: 62%;
+    margin-right: 57%;
+    width: 100%;
   }
   .analisar{
     font-size: 4rem;
     font-weight: 600;
-    margin-top: 3%;
-    margin-right:11%;
+    margin-top: 5%;
+    margin-right:19%;
+    width: 100%;
   }

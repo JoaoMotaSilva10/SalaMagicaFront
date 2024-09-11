@@ -26,17 +26,16 @@
   font-weight: 600;
     font-size: 4rem;
     margin-left: 4%;
-    margin-top: 4%;
+    margin-top: 6%;
 }
-.gerente{
-  font-size: 5rem;
-}
-  
+
+  .tente{font-size: 4.6rem;
+  margin-left: 4%;}
   .image-gallery {
     display: flex;
     justify-content: space-between;
     margin-top: 2%;
-    height: 60%;
+    height: 55%;
 
   }
   

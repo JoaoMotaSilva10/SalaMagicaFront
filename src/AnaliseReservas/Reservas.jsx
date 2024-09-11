@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Reservas.css';
 
-// Dados de exemplo (você pode substituir pelos seus dados reais)
+// Dados de exemplo com IDs únicos
 const roomsData = [
   { id: 1, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "07:45" },
   { id: 2, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "08:30" },
@@ -18,20 +18,12 @@ const roomsData = [
   { id: 7, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
   { id: 6, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "10:30" },
   { id: 7, reserva: "Sala de Informática", usuario: "Gabriel Barbosa", pessoas: 4, horario: "11:00" },
-  
-  
 ];
 
 const equipmentData = [
   { id: 1, reserva: "Projetor", usuario: "Lucas Silva", pessoas: 1, horario: "09:00" },
   { id: 2, reserva: "Microfone", usuario: "Ana Souza", pessoas: 1, horario: "10:00" },
   { id: 3, reserva: "Câmera", usuario: "Pedro Lima", pessoas: 1, horario: "11:00" },
-  { id: 4, reserva: "Notebook", usuario: "Mariana Oliveira", pessoas: 1, horario: "12:00" },
-  { id: 5, reserva: "Tablet", usuario: "Carlos Mendes", pessoas: 1, horario: "13:00" },
-  { id: 4, reserva: "Notebook", usuario: "Mariana Oliveira", pessoas: 1, horario: "12:00" },
-  { id: 5, reserva: "Tablet", usuario: "Carlos Mendes", pessoas: 1, horario: "13:00" },
-  { id: 4, reserva: "Notebook", usuario: "Mariana Oliveira", pessoas: 1, horario: "12:00" },
-  { id: 5, reserva: "Tablet", usuario: "Carlos Mendes", pessoas: 1, horario: "13:00" },
   { id: 4, reserva: "Notebook", usuario: "Mariana Oliveira", pessoas: 1, horario: "12:00" },
   { id: 5, reserva: "Tablet", usuario: "Carlos Mendes", pessoas: 1, horario: "13:00" },
 ];
@@ -70,14 +62,12 @@ function Reservas() {
     </div>
   );
 
-
   const data = activeTab === 'salas' ? roomsData : equipmentData;
 
   return (
     <div className="reservations-container">
-      <h1 className="analisar">Vamos analisar os pedidos de </h1>
-      <h1 className="Reservas">Reservas!</h1>
-      
+      <h1 className="analisar">Vamos analisar os pedidos </h1>
+      <h1 className="Reservas"> de Reservas!</h1>
 
       <div className="tabs">
         <button

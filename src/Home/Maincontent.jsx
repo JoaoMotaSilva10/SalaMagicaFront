@@ -14,7 +14,7 @@ function MainContent() {
           <Link to={'/Login'} className="custom-link">Sair da conta</Link>
         </button>
       </div>
-      <h1 className="gerente">Gerente!</h1>
+      <h1 className="tente">Gerente!</h1>
       <div className="image-gallery">
       <img src={im2} classname="img1"/>
       <img src={im1}/>
