@@ -1,0 +1,111 @@
+/* Estilo principal da página */
+.main-container {
+    padding: 200px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Título da página */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* Container para os botões */
+  .button-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo dos botões de alternância */
+  .button-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #444;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-container button.active {
+    background-color: #008cba;
+  }
+  
+  .button-container button:hover {
+    background-color: #555;
+  }
+  
+  /* Formulário de cadastro */
+  .cadastro-form {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  input::placeholder {
+    color: #999;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .submit-button:hover {
+    background-color: #005f73;
+  }
+  
+  /* Estilo da tabela de visualização de recursos */
+  .resource-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .resource-table th,
+  .resource-table td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: left;
+  }
+  
+  .resource-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .resource-table td {
+    background-color: #222;
+  }
+  
+  .resource-table tbody tr:hover {
+    background-color: #333;
+  }
+  

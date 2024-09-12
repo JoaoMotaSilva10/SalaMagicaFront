@@ -27,10 +27,7 @@ function Sidebar() {
         <Link to={'/CadastroSala'} className="custom-button">   <li>
         <img src={equipmentIcon}></img> <i className="icon-salas"></i>Atualização de Sala 
         </li></Link>
-        <Link to={'/Login'} className="custom-button">  <li>
-        <img src={analysisIcon}></img>  <i className="icon-recursos"></i>Status de Recursos 
-        </li></Link>
-        <Link to={'/Login'} className="custom-button"> <li>
+        <Link to={'/equipamento'} className="custom-button"> <li>
         <img src={adminIcon}></img>  <i className="icon-admin"></i> Cadastro de Equipamento 
         </li></Link>
         <Link to={'/Suporte'} className="custom-button"><li>
