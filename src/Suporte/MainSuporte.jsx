@@ -26,9 +26,10 @@ const MainSuporte = () => {
   };
 
   return (
-    <div className="container">
-      <h1 className="hora">Hora de visualizar as</h1>
-      <h1 className="rec">Reclamações!</h1>
+    <div className="main-content"> 
+    <div className="header">
+    <h1 className="cadastrareq">Hora de visualizar as reclamações!</h1>
+</div>
       <div className="table-wrapper">
         <table className="support-table">
           <thead>

@@ -33,7 +33,7 @@ function Sidebar() {
         <Link to={'/Suporte'} className="custom-button"><li>
         <img src={roomIcon}></img>  <i className="icon-suporte"></i> Resposta de Suporte 
         </li></Link>
-        <Link to={'/Login'} className="custom-button"><li>
+        <Link to={'/Gerenciador'} className="custom-button"><li>
         <img src={roomIcon}></img>  <i className="icon-suporte"></i> Cadastro de gerenciadores
         </li></Link>
       </ul>

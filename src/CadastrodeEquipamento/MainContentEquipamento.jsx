@@ -28,14 +28,12 @@ const MainContentEquipamento = () => {
     <div className="main-content">
       <form>
         <div className="header">
-          <div className="header-text">
-            <h1 className="cadastrar">Hora de visualizar e cadastrar equipamentos!</h1>
-          </div>
+            <h1 className="cadastrareq">Hora de visualizar e cadastrar equipamentos!</h1>
         </div>
         <div className="cadastro">
           <h2 className="tipo">Qual tipo de equipamento você gostaria de cadastrar?</h2>
           <select
-            className="inpcad"
+            className="inpcad2"
             value={equipamento}
             onChange={(e) => setEquipamento(e.target.value)}
           >
@@ -51,7 +49,7 @@ const MainContentEquipamento = () => {
         </button>
 
         {/* Tabela de visualização dos equipamentos */}
-        <table>
+        <table className="tabelaeq">
           <thead>
             <tr>
               <th>Equipamento</th>
@@ -61,7 +59,7 @@ const MainContentEquipamento = () => {
           <tbody>
             {tabela.map((item, index) => (
               <tr key={index}>
-                <td>{item.nome}</td>
+                <td >{item.nome}</td>
                 <td>{item.quantidade}</td>
               </tr>
             ))}

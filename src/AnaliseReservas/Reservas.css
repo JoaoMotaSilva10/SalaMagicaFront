@@ -26,7 +26,7 @@
   }
   
   .table-container{
-    max-height: 53%; 
+    max-height: 60%; 
     overflow-y: auto; 
     overflow-x: auto; 
     margin-top: 20px;
@@ -178,5 +178,10 @@ margin-left: 5%;}
   
   .search-input::placeholder {
     color: #888;
+  }
+  
+  .table-wrapper {
+    max-height: 70%; /* Defina a altura máxima conforme necessário */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical */
   }
   

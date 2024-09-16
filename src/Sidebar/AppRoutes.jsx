@@ -5,6 +5,7 @@ import Cadastro from "../CadastroSala/CadastroSala"
 import Reservas from "../AnaliseReservas/AnaliseReservas"
 import Suporte from "../Suporte/Suporte"
 import Equipamento from "../CadastrodeEquipamento/CadastroEquipamento"
+import Gerenciador from "../gerenciador/gerenciador"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const AppRoutes = () => {
@@ -17,6 +18,7 @@ const AppRoutes = () => {
         <Route path="/Reservas" element={<Reservas />} />
         <Route path="/Suporte" element={<Suporte />} />
         <Route path="/equipamento" element={<Equipamento />} />
+        <Route path="/Gerenciador" element={<Gerenciador />} />
       </Routes>
     </Router>
   );

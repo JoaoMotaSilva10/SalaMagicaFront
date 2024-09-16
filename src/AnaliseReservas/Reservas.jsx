@@ -70,6 +70,7 @@ function Reservas() {
 
   // Renderização da tabela de pedidos (salas)
   const renderRoomsTable = () => (
+    
     <div className="table-container">
       <table>
         <thead>
