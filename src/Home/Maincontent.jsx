@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainContent.css';
-import im1 from '../assets/statusrec.png';
-import im2 from '../assets/cadastrosala.png';
+import im1 from '../assets/cad.png';
+import im2 from '../assets/att.png';
 import im3 from '../assets/analise.png';
 import { Link } from 'react-router-dom';
 
@@ -17,7 +17,7 @@ function MainContent() {
       <h1 className="tente">Gerente!</h1>
       <div className="image-gallery">
       <Link to={'/CadastroSala'} className="pfv"><img src={im2} /> </Link>
-      <Link to={'/CadastroSala'} className="pfv"><img src={im1} /> </Link>
+      <Link to={'/Equipamento'} className="pfv"><img src={im1} /> </Link>
       <Link to={'/Reservas'} className="pfv"><img src={im3} /> </Link>
       </div>
     </div>

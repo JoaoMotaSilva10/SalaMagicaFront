@@ -1,76 +1,75 @@
 import React, { useState } from 'react';
-import './MainContentEquipamento.css';
 
 const MainContentEquipamento = () => {
-  const [visualizar, setVisualizar] = useState(false);
+  const [equipamento, setEquipamento] = useState(''); // Armazena o equipamento selecionado
+  const [tabela, setTabela] = useState([
+    { nome: 'Computador de informatica', quantidade: 2 },
+    { nome: 'Data Show', quantidade: 1 },
+    { nome: 'Chromebook', quantidade: 8 },
+  ]); // Armazena os equipamentos cadastrados
 
-  // Função para alternar entre cadastro e visualização de recurso
-  const toggleVisualizar = () => {
-    setVisualizar(!visualizar);
+  const handleCadastro = () => {
+    if (equipamento) {
+      // Verifica se o equipamento já existe na tabela
+      const index = tabela.findIndex((item) => item.nome === equipamento);
+      if (index !== -1) {
+        // Atualiza a quantidade
+        const novaTabela = [...tabela];
+        novaTabela[index].quantidade += 1;
+        setTabela(novaTabela);
+      } else {
+        // Adiciona um novo equipamento
+        setTabela([...tabela, { nome: equipamento, quantidade: 1 }]);
+      }
+    }
   };
 
   return (
-    <div className="main-container">
-      <h1>Hora de cadastrar/visualizar recursos!</h1>
-
-      {/* Botões para alternar entre cadastro e visualização */}
-      <div className="button-container">
-        <button className={!visualizar ? "active" : ""} onClick={() => setVisualizar(false)}>
-          Cadastro de recurso
-        </button>
-        <button className={visualizar ? "active" : ""} onClick={toggleVisualizar}>
-          Visualização de recurso
-        </button>
-      </div>
-
-      {/* Formulário de Cadastro de Recurso */}
-      {!visualizar && (
-        <form className="cadastro-form">
-          <div className="form-group">
-            <label>Qual será o equipamento que você deseja cadastrar?</label>
-            <input type="text" placeholder="Digite o nome do equipamento" />
+    <div className="main-content">
+      <form>
+        <div className="header">
+          <div className="header-text">
+            <h1 className="cadastrar">Hora de visualizar e cadastrar equipamentos!</h1>
           </div>
-          <div className="form-group">
-            <label>Qual será a sala em que se encontra?</label>
-            <input type="text" placeholder="Digite a sala" />
-          </div>
+        </div>
+        <div className="cadastro">
+          <h2 className="tipo">Qual tipo de equipamento você gostaria de cadastrar?</h2>
+          <select
+            className="inpcad"
+            value={equipamento}
+            onChange={(e) => setEquipamento(e.target.value)}
+          >
+            <option value="">Selecione um equipamento</option>
+            <option value="Computador de informatica">Computador de informática</option>
+            <option value="Data Show">Data Show</option>
+            <option value="Chromebook">Chromebook</option>
+          </select>
+        </div>
 
-          <button type="submit" className="submit-button">
-            Cadastrar Equipamento
-          </button>
-        </form>
-      )}
+        <button className="cadastra" type="button" onClick={handleCadastro}>
+          Cadastrar
+        </button>
 
-      {/* Tabela de Visualização de Recursos */}
-      {visualizar && (
-        <table className="resource-table">
+        {/* Tabela de visualização dos equipamentos */}
+        <table>
           <thead>
             <tr>
               <th>Equipamento</th>
-              <th>Situação</th>
-              <th>Problema</th>
               <th>Quantidade</th>
             </tr>
           </thead>
           <tbody>
-            {/* Dados de exemplo */}
-            <tr>
-              <td>Projetor</td>
-              <td>Funcionando</td>
-              <td>Nenhum</td>
-              <td>2</td>
-            </tr>
-            <tr>
-              <td>Computador</td>
-              <td>Com defeito</td>
-              <td>Problema na placa mãe</td>
-              <td>5</td>
-            </tr>
+            {tabela.map((item, index) => (
+              <tr key={index}>
+                <td>{item.nome}</td>
+                <td>{item.quantidade}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
-      )}
+      </form>
     </div>
   );
 };
 
-export default MainContentEquipamento
+export default MainContentEquipamento;
