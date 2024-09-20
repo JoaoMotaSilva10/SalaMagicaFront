@@ -30,7 +30,7 @@
 }
 
   .tente{font-size: 4.6rem;
-  margin-left: 4%;}
+  margin-right:65%;}
   .image-gallery {
     display: flex;
     justify-content: space-between;
@@ -65,3 +65,6 @@
 
 
 .pfv{width: 10000px;}
+
+.custom-link{  background-color: #6200ea;
+color: white;}

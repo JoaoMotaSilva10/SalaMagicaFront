@@ -20,10 +20,9 @@
     font-size: 4rem;
     margin-top: 6%;  
 margin-left: 7%;}
-  .gerente{
+  .gerente2{
     font-weight: 600;
     font-size: 4rem;
-    margin-left: 7%;
   }
   .tipo{
     font-size: 35px;
@@ -43,8 +42,8 @@ margin-left: 7%;}
   }
 
   .teste{
-background-color: white;
-color:black;
+    background-color: #6200ea;
+color:white;
 width: 15%;
 font-size: 18px;}
 

@@ -26,8 +26,7 @@ function MainContentCadastro() {
       <form>
         <div className="header">
           <div className="header-text">
-            <h1 className="cadastrar">Hora de atualizar</h1>
-            <h1 className="gerente">a sala!</h1>
+            <h1 className="cadastrar">Hora de atualizar a Página!</h1>
           </div>
           <button className="teste">Avançar</button>
         </div>
