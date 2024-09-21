@@ -31,6 +31,8 @@ body {
     padding: 10px;
     text-align: left;
   }
+  .lapis{background-color:white;
+  border: 1.5px solid black;}
   
   th {
     background-color: #000;

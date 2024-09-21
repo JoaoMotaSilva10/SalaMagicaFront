@@ -67,10 +67,10 @@ const MainContentGerenciador = () => {
               <td>{employee.role}</td>
               <td>{employee.salary}</td>
               <td>
-                <button onClick={() => handleEditEmployee(employee)}>✏️</button>
+                <button className="lapis" onClick={() => handleEditEmployee(employee)}>✏️</button>
               </td>
               <td>
-                <button onClick={() => handleDeleteEmployee(employee.id)}>
+                <button className="lapis" onClick={() => handleDeleteEmployee(employee.id)}>
                   🗑️
                 </button>
               </td>
