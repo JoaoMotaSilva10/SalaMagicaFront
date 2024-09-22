@@ -3,15 +3,15 @@ import "./MainContentGerenciador.css";
 
 const MainContentGerenciador = () => {
   const [employees, setEmployees] = useState([
-    { id: 1, name: "william lucas", role: "pogramador", salary: 4000 },
-    { id: 2, name: "lucas dev", role: "analista", salary: 3000 },
-    { id: 3, name: "giseli", role: "Gerente", salary: 20000 },
-    { id: 1, name: "william lucas", role: "pogramador", salary: 4000 },
-    { id: 2, name: "lucas dev", role: "analista", salary: 3000 },
-    { id: 3, name: "giseli", role: "Gerente", salary: 20000 },
-    { id: 1, name: "william lucas", role: "pogramador", salary: 4000 },
-    { id: 2, name: "lucas dev", role: "analista", salary: 3000 },
-    { id: 3, name: "giseli", role: "Gerente", salary: 20000 },
+    { id: 1, name: "william lucas", role: "pogramador@gmail.com", salary: 4000 },
+    { id: 2, name: "lucas dev", role: "analista@gmail.com", salary: 3000 },
+    { id: 3, name: "giseli", role: "Gerente@gmail.com", salary: 20000 },
+    { id: 1, name: "william lucas", role: "pogramador@gmail.com", salary: 4000 },
+    { id: 2, name: "lucas dev", role: "analista@gmail.com", salary: 3000 },
+    { id: 3, name: "giseli", role: "Gerente@gmail.com", salary: 20000 },
+    { id: 1, name: "william lucas", role: "pogramador@gmail.com", salary: 4000 },
+    { id: 2, name: "lucas dev", role: "analista@gmail.com", salary: 3000 },
+    { id: 3, name: "giseli", role: "Gerente@gmail.com", salary: 20000 },
   ]);
   const [modalVisible, setModalVisible] = useState(false);
   const [currentEmployee, setCurrentEmployee] = useState(null);
