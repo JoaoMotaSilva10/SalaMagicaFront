@@ -6,12 +6,12 @@ const MainContentGerenciador = () => {
     { id: 1, name: "william lucas", role: "pogramador@gmail.com", salary: 4000 },
     { id: 2, name: "lucas dev", role: "analista@gmail.com", salary: 3000 },
     { id: 3, name: "giseli", role: "Gerente@gmail.com", salary: 20000 },
-    { id: 1, name: "william lucas", role: "pogramador@gmail.com", salary: 4000 },
-    { id: 2, name: "lucas dev", role: "analista@gmail.com", salary: 3000 },
-    { id: 3, name: "giseli", role: "Gerente@gmail.com", salary: 20000 },
-    { id: 1, name: "william lucas", role: "pogramador@gmail.com", salary: 4000 },
-    { id: 2, name: "lucas dev", role: "analista@gmail.com", salary: 3000 },
-    { id: 3, name: "giseli", role: "Gerente@gmail.com", salary: 20000 },
+    { id: 4, name: "william lucas", role: "pogramador@gmail.com", salary: 4000 },
+    { id: 5, name: "lucas dev", role: "analista@gmail.com", salary: 3000 },
+    { id: 6, name: "giseli", role: "Gerente@gmail.com", salary: 20000 },
+    { id: 7, name: "william lucas", role: "pogramador@gmail.com", salary: 4000 },
+    { id: 8, name: "lucas dev", role: "analista@gmail.com", salary: 3000 },
+    { id: 9, name: "giseli", role: "Gerente@gmail.com", salary: 20000 },
   ]);
   const [modalVisible, setModalVisible] = useState(false);
   const [currentEmployee, setCurrentEmployee] = useState(null);
