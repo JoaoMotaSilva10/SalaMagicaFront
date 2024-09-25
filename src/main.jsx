@@ -10,3 +10,5 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+/*https://chatgpt.com/share/66f444aa-3364-800e-9c1f-867a58b14538*/ 
