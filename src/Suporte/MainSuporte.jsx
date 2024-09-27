@@ -5,8 +5,8 @@ const MainSuporte = () => {
   const [expandedRow, setExpandedRow] = useState(null);
 
   const data = [
-    { id: 1, nome: 'João Silva', rm: '12345', email: 'joao.silva@example.com', tipoReclamacao: 'Reserva cancelada', reclamacao: 'O produto chegou com defeito e não funciona.' },
-    { id: 2, nome: 'Maria Oliveira', rm: '67890', email: 'maria.oliveira@example.com', tipoReclamacao: 'Produto com defeito', reclamacao: 'O produto foi entregue com uma semana de atraso.' },
+    { id: 1, nome: 'João Silva', rm: '12345', email: 'joao.silva@example.com', tipoReclamacao: 'Reserva cancelada', reclamacao: 'O site não funcionou na hora de reservar' },
+    { id: 2, nome: 'Maria Oliveira', rm: '67890', email: 'maria.oliveira@example.com', tipoReclamacao: 'Datashow defeituoso', reclamacao: 'Quando fomos utilizar o datashow, o mesmo nao funcionou' },
     { id: 3, nome: 'João Silva', rm: '12345', email: 'joao.silva@example.com', tipoReclamacao: 'Reserva cancelada', reclamacao: 'O produto chegou com defeito e não funciona.' },
     { id: 4, nome: 'Maria Oliveira', rm: '67890', email: 'maria.oliveira@example.com', tipoReclamacao: 'Entrega atrasada', reclamacao: 'O produto foi entregue com uma semana de atraso.' },
     { id: 5, nome: 'João Silva', rm: '12345', email: 'joao.silva@example.com', tipoReclamacao: 'Produto defeituoso', reclamacao: 'O produto chegou com defeito e não funciona.' },

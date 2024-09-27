@@ -1,7 +1,7 @@
 .reservations-container {
     text-align: center;
     padding: 20px;
-    width: 147vh;
+    width: 152vh;
   }
   
   .tabs {
@@ -130,6 +130,7 @@ margin-left: 5%;}
     font-size: 1rem;
     background-color: white;
     margin-right: 1%;
+    color: black;
   }
   .search-input2 {
     width: 8%;
@@ -139,6 +140,7 @@ margin-left: 5%;}
     font-size: 1rem;
     background-color: white;
     margin-right: 1%;
+    color: black;
   }
   .search-input3 {
     width: 17%;
@@ -148,6 +150,7 @@ margin-left: 5%;}
     font-size: 1rem;
     background-color: white;
     margin-right: 1%;
+    color: black;
   }
   .search-input4 {
     width: 22%;
@@ -157,6 +160,7 @@ margin-left: 5%;}
     font-size: 1rem;
     background-color: white;
     margin-right: 1%;
+    color: black;
   }
   .search-input5 {
     width: 12%;
@@ -166,6 +170,7 @@ margin-left: 5%;}
     font-size: 1rem;
     background-color: white;
     margin-right: 1%;
+    color: black;
   }
   .search-input6 {
     width: 17%;
@@ -174,6 +179,8 @@ margin-left: 5%;}
     border: 1px solid #ddd;
     font-size: 1rem;
     background-color: white;margin-right: 1%;
+    color: black;
+    margin-right: 4%;
   }
   
   .search-input::placeholder {
