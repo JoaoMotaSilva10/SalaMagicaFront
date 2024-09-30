@@ -132,15 +132,7 @@ const Modal = ({ employee, onClose, onSave, isEdit }) => {
     <div className="modal">
       <div className="modal-content">
         <h2>{isEdit ? "Editar Funcionário" : "Adicionar Funcionário"}</h2>
-        <label>
-          ID:
-          <input
-            type="text"
-            value={id}
-            onChange={(e) => setId(e.target.value)}
-            disabled={isEdit} 
-          />
-        </label>
+       
         <label>
           Nome:
           <input
