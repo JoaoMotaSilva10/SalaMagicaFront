@@ -18,7 +18,7 @@ function Sidebar() {
         <h2>Sala Mágica</h2>
       </div>
       <ul>
-      <Link to={'/'} className="custom-button"> <li>
+      <Link to={'/Inicio'} className="custom-button"> <li>
       <img src={homeIcon} /> <i className="icon-home"></i> Início 
         </li></Link>
         <Link to={'/Reservas'} className="custom-button"> <li>
